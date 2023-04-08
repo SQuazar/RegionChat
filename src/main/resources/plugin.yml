@@ -1,0 +1,16 @@
+name: RegionChat
+version: '${project.version}'
+main: net.quazar.regionchat.RegionChat
+authors:
+  - LOVEC
+  - Quazar
+website: Quazar#6141
+depend:
+  - WorldGuard
+commands:
+  rgchat:
+    usage: /rgchat <name>
+    description: Select region chat
+  rgchats:
+    usage: /rgchats
+    description: Get accessible region chat
